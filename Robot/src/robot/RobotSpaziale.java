@@ -8,6 +8,15 @@ package robot;
  *
  * @author Utente
  */
-public class RobotSpaziale {
+public class RobotSpaziale extends Robot {
+    
+    public RobotSpaziale(String id, int livelloBatteria, boolean stato, int efficcenza) {
+        super(id, livelloBatteria, efficcenza);
+    }
+
+    @Override
+    public void eseguiCompito() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
 }
